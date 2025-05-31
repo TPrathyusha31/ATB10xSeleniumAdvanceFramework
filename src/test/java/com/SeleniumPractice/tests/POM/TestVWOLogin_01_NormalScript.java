@@ -45,6 +45,8 @@ public class TestVWOLogin_01_NormalScript {
         DashboardPage dashboardPage = new DashboardPage(driver);
         String loggedInUsername = dashboardPage.LoggedInUser();
 
+
+        //Assertions
         assertThat(loggedInUsername).isNotEmpty().isNotNull().isNotBlank();
         Assert.assertEquals(loggedInUsername,"Aman");
 
