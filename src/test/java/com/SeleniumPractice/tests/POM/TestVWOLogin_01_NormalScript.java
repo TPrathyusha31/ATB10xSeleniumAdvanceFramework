@@ -1,7 +1,7 @@
 package com.SeleniumPractice.tests.POM;
 
-import com.SeleniumPractice.pages.pageObjectModel.appvwo.DashboardPage;
-import com.SeleniumPractice.pages.pageObjectModel.appvwo.LoginPage;
+import com.SeleniumPractice.pages.pageObjectModel.appvwo.DashboardPageVWO_POM;
+import com.SeleniumPractice.pages.pageObjectModel.appvwo.LoginPageVWO_POM;
 import io.qameta.allure.Description;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -25,7 +25,7 @@ public class TestVWOLogin_01_NormalScript {
 
         //Page Class Code(POM Code)
         WebDriver driver = new EdgeDriver(edgeOptions);
-        LoginPage loginPage = new LoginPage(driver);
+        LoginPageVWO_POM loginPage = new LoginPageVWO_POM(driver);
         String error_msg = loginPage.LoginToVWOInvalidCreds("admin@123","123");
 
         //Assertions
@@ -40,9 +40,9 @@ public class TestVWOLogin_01_NormalScript {
     public void test_positivecase_validCreds() {
 
         WebDriver driver = new EdgeDriver();
-        LoginPage loginPage_positive = new LoginPage(driver);
+        LoginPageVWO_POM loginPage_positive = new LoginPageVWO_POM(driver);
         loginPage_positive.LoginToVWOValidCreds("contact+aug@thetestingacademy.com","TtxkgQ!s$rJBk85");
-        DashboardPage dashboardPage = new DashboardPage(driver);
+        DashboardPageVWO_POM dashboardPage = new DashboardPageVWO_POM(driver);
         String loggedInUsername = dashboardPage.LoggedInUser();
 
 

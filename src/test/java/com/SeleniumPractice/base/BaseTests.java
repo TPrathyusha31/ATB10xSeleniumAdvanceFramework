@@ -1,0 +1,4 @@
+package com.SeleniumPractice.base;
+
+public class BaseTests {
+}

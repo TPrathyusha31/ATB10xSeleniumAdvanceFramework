@@ -4,10 +4,10 @@ import com.SeleniumPractice.utils.waitHelpers;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class DashboardPage {
+public class DashboardPageVWO_POM {
     WebDriver driver;
 
-    public DashboardPage(WebDriver driver){
+    public DashboardPageVWO_POM(WebDriver driver){
         this.driver = driver;
     }
 

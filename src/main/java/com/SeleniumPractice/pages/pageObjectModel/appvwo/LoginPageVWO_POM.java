@@ -4,11 +4,11 @@ import com.SeleniumPractice.utils.waitHelpers;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class LoginPage{ //Page class --> two things -->Page locators and Page actions
+public class LoginPageVWO_POM { //Page class --> two things -->Page locators and Page actions
     WebDriver driver;
 
     //constructor
-   public LoginPage(WebDriver driver){
+   public LoginPageVWO_POM(WebDriver driver){
 
         this.driver = driver;
 

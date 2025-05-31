@@ -1,4 +1,4 @@
 package com.SeleniumPractice.pages.pageObjectModel.appvwo;
 
-public class SupportPage {
+public class FreetrailPageVWO_POM {
 }
