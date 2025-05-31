@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5c92cc38-c602-452d-b5bf-e19bde286eb4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/SeleniumPractice/pages/pageObjectModel/appvwo/DashboardPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/SeleniumPractice/pages/pageObjectModel/appvwo/FreetrailPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/SeleniumPractice/pages/pageObjectModel/appvwo/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/SeleniumPractice/pages/pageObjectModel/appvwo/SupportPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/SeleniumPractice/utils/waitHelpers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/SeleniumPractice/tests/POM/TestVWOLogin_01_NormalScript.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2xmIiEFejz4CLfDXv07ZGt8t5cT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.C:/Users/Prathyusha/IdeaProjects/ATB10xSeleniumAdvanceFramework/testng.xml.executor": "Run",
+    "TestNG.C:/Users/Prathyusha/IdeaProjects/ATB10xSeleniumAdvanceFramework/testng_vwo_pom.xml.executor": "Run",
+    "TestNG.TestVWOLogin_01_NormalScript.executor": "Run",
+    "TestNG.TestVWOLogin_01_NormalScript.testnegativecase_invalidCreds.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.excludes"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.SeleniumPractice.utils" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.C:/Users/Prathyusha/IdeaProjects/ATB10xSeleniumAdvanceFramework/testng_vwo_pom.xml">
+    <configuration name="C:/Users/Prathyusha/IdeaProjects/ATB10xSeleniumAdvanceFramework/testng_vwo_pom.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATB10xSeleniumAdvanceFramework" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng_vwo_pom.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/Prathyusha/IdeaProjects/ATB10xSeleniumAdvanceFramework/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATB10xSeleniumAdvanceFramework" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestVWOLogin_01_NormalScript" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATB10xSeleniumAdvanceFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.SeleniumPractice.tests.POM.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.SeleniumPractice.tests.POM" />
+      <option name="MAIN_CLASS_NAME" value="com.SeleniumPractice.tests.POM.TestVWOLogin_01_NormalScript" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestVWOLogin_01_NormalScript.testnegativecase_invalidCreds" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATB10xSeleniumAdvanceFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.SeleniumPractice.tests.POM.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.SeleniumPractice.tests.POM" />
+      <option name="MAIN_CLASS_NAME" value="com.SeleniumPractice.tests.POM.TestVWOLogin_01_NormalScript" />
+      <option name="METHOD_NAME" value="testnegativecase_invalidCreds" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.C:/Users/Prathyusha/IdeaProjects/ATB10xSeleniumAdvanceFramework/testng_vwo_pom.xml" />
+        <item itemvalue="TestNG.TestVWOLogin_01_NormalScript" />
+        <item itemvalue="TestNG.C:/Users/Prathyusha/IdeaProjects/ATB10xSeleniumAdvanceFramework/testng.xml" />
+        <item itemvalue="TestNG.TestVWOLogin_01_NormalScript.testnegativecase_invalidCreds" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5c92cc38-c602-452d-b5bf-e19bde286eb4" name="Changes" comment="" />
+      <created>1748536949755</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1748536949755</updated>
+    </task>
+    <servers />
+  </component>
+</project>
