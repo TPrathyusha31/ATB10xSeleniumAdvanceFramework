@@ -1,7 +1,7 @@
 package com.SeleniumPractice.tests.POM;
 
-import com.SeleniumPractice.pages.pageObjectModel.appvwo.DashboardPageVWO_POM;
-import com.SeleniumPractice.pages.pageObjectModel.appvwo.LoginPageVWO_POM;
+import com.SeleniumPractice.pages.pageObjectModel.appvwo.Normal_POM.DashboardPageVWO_POM;
+import com.SeleniumPractice.pages.pageObjectModel.appvwo.Normal_POM.LoginPageVWO_POM;
 import io.qameta.allure.Description;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -13,7 +13,7 @@ import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
-public class TestVWOLogin_01_NormalScript {
+public class TestVWOLogin_01_NormalScript_POM {
     @Description("Verify that with invalid username and password, error message is shown")
     @Test
     public void test_negativecase_invalidCreds(){

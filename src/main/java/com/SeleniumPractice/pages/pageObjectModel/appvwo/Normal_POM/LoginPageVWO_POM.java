@@ -1,4 +1,4 @@
-package com.SeleniumPractice.pages.pageObjectModel.appvwo;
+package com.SeleniumPractice.pages.pageObjectModel.appvwo.Normal_POM;
 
 import com.SeleniumPractice.utils.waitHelpers;
 import org.openqa.selenium.By;

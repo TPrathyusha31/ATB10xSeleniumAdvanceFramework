@@ -4,20 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c92cc38-c602-452d-b5bf-e19bde286eb4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/SeleniumPractice/pages/pageObjectModel/appvwo/DashboardPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/SeleniumPractice/pages/pageObjectModel/appvwo/FreetrailPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/SeleniumPractice/pages/pageObjectModel/appvwo/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/SeleniumPractice/pages/pageObjectModel/appvwo/SupportPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/SeleniumPractice/utils/waitHelpers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/SeleniumPractice/tests/POM/TestVWOLogin_01_NormalScript.java" afterDir="false" />
+    <list default="true" id="5c92cc38-c602-452d-b5bf-e19bde286eb4" name="Changes" comment="all files">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/SeleniumPractice/pages/pageObjectModel/appvwo/Improved_POM/DashboardPageVWO_ImprovedPOM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/SeleniumPractice/pages/pageObjectModel/appvwo/Improved_POM/FreetrailPageVWO_ImprovedPOM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/SeleniumPractice/pages/pageObjectModel/appvwo/Improved_POM/LoginPageVWO_ImprovedPOM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/SeleniumPractice/pages/pageObjectModel/appvwo/Improved_POM/SupportPageVWO_ImprovedPOM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/SeleniumPractice/utils/ProperitiesReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/data.properities" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/SeleniumPractice/tests/POM/TestVWOLogin_02_DriverManager_PropertyReader_POM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/SeleniumPractice/tests/POM/TestVWOLogin_03_DriverManager_PropertyReader_n_CommonToAllPagees_POM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/SeleniumPractice/base/basePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/SeleniumPractice/base/CommonToAllPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/SeleniumPractice/driver/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/SeleniumPractice/driver/DriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/SeleniumPractice/pages/pageObjectModel/appvwo/DashboardPageVWO_POM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/SeleniumPractice/pages/pageObjectModel/appvwo/Normal_POM/DashboardPageVWO_POM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/SeleniumPractice/pages/pageObjectModel/appvwo/FreetrailPageVWO_POM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/SeleniumPractice/pages/pageObjectModel/appvwo/Normal_POM/FreetrailPageVWO_POM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/SeleniumPractice/pages/pageObjectModel/appvwo/LoginPageVWO_POM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/SeleniumPractice/pages/pageObjectModel/appvwo/Normal_POM/LoginPageVWO_POM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/SeleniumPractice/pages/pageObjectModel/appvwo/SupportPageVWO_POM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/SeleniumPractice/pages/pageObjectModel/appvwo/Normal_POM/SupportPageVWO_POM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/SeleniumPractice/tests/POM/TestVWOLogin_01_NormalScript.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/SeleniumPractice/tests/POM/TestVWOLogin_01_NormalScript_POM.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +37,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "TPrathyusha31"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/TPrathyusha31/ATB10xSeleniumAdvanceFramework.git",
+    "accountId": "3393e7af-178d-4993-bfdf-d34fb3c44107"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 5
 }]]></component>
@@ -53,6 +68,8 @@
     "TestNG.C:/Users/Prathyusha/IdeaProjects/ATB10xSeleniumAdvanceFramework/testng_vwo_pom.xml.executor": "Run",
     "TestNG.TestVWOLogin_01_NormalScript.executor": "Run",
     "TestNG.TestVWOLogin_01_NormalScript.testnegativecase_invalidCreds.executor": "Run",
+    "TestNG.TestVWOLogin_02_DriverManager_PropertyReader_POM.executor": "Run",
+    "TestNG.TestVWOLogin_03_DriverManager_PropertyReader_n_CommonToAllPagees_POM.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.excludes"
@@ -63,7 +80,7 @@
       <recent name="com.SeleniumPractice.utils" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/Prathyusha/IdeaProjects/ATB10xSeleniumAdvanceFramework/testng_vwo_pom.xml">
+  <component name="RunManager" selected="TestNG.TestVWOLogin_03_DriverManager_PropertyReader_n_CommonToAllPagees_POM">
     <configuration name="C:/Users/Prathyusha/IdeaProjects/ATB10xSeleniumAdvanceFramework/testng_vwo_pom.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATB10xSeleniumAdvanceFramework" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng_vwo_pom.xml" />
@@ -84,7 +101,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestVWOLogin_01_NormalScript" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestVWOLogin_01_NormalScript_POM" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATB10xSeleniumAdvanceFramework" />
       <extension name="coverage">
         <pattern>
@@ -93,7 +110,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.SeleniumPractice.tests.POM" />
-      <option name="MAIN_CLASS_NAME" value="com.SeleniumPractice.tests.POM.TestVWOLogin_01_NormalScript" />
+      <option name="MAIN_CLASS_NAME" value="com.SeleniumPractice.tests.POM.TestVWOLogin_01_NormalScript_POM" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -101,7 +118,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestVWOLogin_01_NormalScript.testnegativecase_invalidCreds" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestVWOLogin_02_DriverManager_PropertyReader_POM" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATB10xSeleniumAdvanceFramework" />
       <extension name="coverage">
         <pattern>
@@ -110,9 +127,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.SeleniumPractice.tests.POM" />
-      <option name="MAIN_CLASS_NAME" value="com.SeleniumPractice.tests.POM.TestVWOLogin_01_NormalScript" />
-      <option name="METHOD_NAME" value="testnegativecase_invalidCreds" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="com.SeleniumPractice.tests.POM.TestVWOLogin_02_DriverManager_PropertyReader_POM" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestVWOLogin_03_DriverManager_PropertyReader_n_CommonToAllPagees_POM" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATB10xSeleniumAdvanceFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.SeleniumPractice.tests.POM.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.SeleniumPractice.tests.POM" />
+      <option name="MAIN_CLASS_NAME" value="com.SeleniumPractice.tests.POM.TestVWOLogin_03_DriverManager_PropertyReader_n_CommonToAllPagees_POM" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -121,10 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestVWOLogin_03_DriverManager_PropertyReader_n_CommonToAllPagees_POM" />
+        <item itemvalue="TestNG.TestVWOLogin_02_DriverManager_PropertyReader_POM" />
         <item itemvalue="TestNG.C:/Users/Prathyusha/IdeaProjects/ATB10xSeleniumAdvanceFramework/testng_vwo_pom.xml" />
-        <item itemvalue="TestNG.TestVWOLogin_01_NormalScript" />
+        <item itemvalue="TestNG.TestVWOLogin_01_NormalScript_POM" />
         <item itemvalue="TestNG.C:/Users/Prathyusha/IdeaProjects/ATB10xSeleniumAdvanceFramework/testng.xml" />
-        <item itemvalue="TestNG.TestVWOLogin_01_NormalScript.testnegativecase_invalidCreds" />
       </list>
     </recent_temporary>
   </component>
@@ -137,6 +171,36 @@
       <option name="presentableId" value="Default" />
       <updated>1748536949755</updated>
     </task>
+    <task id="LOCAL-00001" summary="web automation framework part1 commit">
+      <option name="closed" value="true" />
+      <created>1748711655613</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1748711655614</updated>
+    </task>
+    <task id="LOCAL-00002" summary="web automation framework part1 commit">
+      <option name="closed" value="true" />
+      <created>1748711899283</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1748711899283</updated>
+    </task>
+    <task id="LOCAL-00003" summary="all files">
+      <option name="closed" value="true" />
+      <created>1748712539930</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1748712539930</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="web automation framework part1 commit" />
+    <MESSAGE value="all files" />
+    <option name="LAST_COMMIT_MESSAGE" value="all files" />
   </component>
 </project>

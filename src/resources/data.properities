@@ -1,0 +1,22 @@
+# WEBSITE 1 --> app.vwo.com
+url = https://app.vwo.com/
+qa_url = https://stage.vwo.com
+
+valid_username = contact+aug@thetestingacademy.com
+valid_password = TtxkgQ!s$rJBk85
+
+invalid_username = admin123@admin.com
+invalid_password = testing123
+
+expected_username = Aman
+error_message =Your email, password, IP address or location did not match
+invalid_error_message=Pramod email, password, IP address or location did not match
+browser = edge
+
+# WEBSITE 2 --> katalon
+katalon_url = https://katalon-demo-cura.herokuapp.com/
+
+
+# WEBSITE 3 --> Orange HRM
+ohrm_url = https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+
