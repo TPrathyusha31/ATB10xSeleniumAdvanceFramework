@@ -1,10 +1,8 @@
-package com.SeleniumPractice.tests.POM;
+package com.SeleniumPractice.tests.POM.AppVWO;
 
 import com.SeleniumPractice.driver.DriverManager;
 import com.SeleniumPractice.pages.pageObjectModel.appvwo.Improved_POM.DashboardPageVWO_ImprovedPOM;
 import com.SeleniumPractice.pages.pageObjectModel.appvwo.Improved_POM.LoginPageVWO_ImprovedPOM;
-import com.SeleniumPractice.pages.pageObjectModel.appvwo.Normal_POM.DashboardPageVWO_POM;
-import com.SeleniumPractice.pages.pageObjectModel.appvwo.Normal_POM.LoginPageVWO_POM;
 import com.SeleniumPractice.utils.ProperitiesReader;
 import io.qameta.allure.Description;
 import org.testng.Assert;

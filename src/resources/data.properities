@@ -11,12 +11,32 @@ invalid_password = testing123
 expected_username = Aman
 error_message =Your email, password, IP address or location did not match
 invalid_error_message=Pramod email, password, IP address or location did not match
-browser = edge
-
-# WEBSITE 2 --> katalon
-katalon_url = https://katalon-demo-cura.herokuapp.com/
+browser = chrome
 
 
-# WEBSITE 3 --> Orange HRM
+
+
+# WEBSITE 2 --> Orange HRM
 ohrm_url = https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
 
+invalid_ohrusername = Testing123@admin.com
+invalid_ohrpassword = TesxgtYI
+
+valid_ohrusername = Admin
+valid_ohrpassword = admin123
+
+Ohr_error_message = Invalid credentials
+ohr_expected_username = PIM
+
+
+# WEBSITE 3 --> katalon
+katalon_url = https://katalon-demo-cura.herokuapp.com/
+
+invalid_katalonuser = Testing123@admin.com
+invalid_katalonpwd = TesxgtYI
+
+valid_katalonuser = John Doe
+valid_katalonpwd = ThisIsNotAPassword
+
+katalon_error_text = Login failed! Please ensure the username and password are valid.
+LoginPage_url = https://katalon-demo-cura.herokuapp.com/profile.php#login

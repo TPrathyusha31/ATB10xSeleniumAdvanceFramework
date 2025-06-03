@@ -12,7 +12,12 @@ public class CommonToAllPage {
         //driver.get(url)
        getDriver().get(ProperitiesReader.readKey("url"));
     }
-
+    public void openOrangeHRMURL(){
+        getDriver().get(ProperitiesReader.readKey("ohr_url"));
+    }
+    public void openKatalonURL(){
+        getDriver().get(ProperitiesReader.readKey("katalon_url"));
+    }
     public void enterInput(By by,String key){
         getDriver().findElement(by).sendKeys(key);
     }

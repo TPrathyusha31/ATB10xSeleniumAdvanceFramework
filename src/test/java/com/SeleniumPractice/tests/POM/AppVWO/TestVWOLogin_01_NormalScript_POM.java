@@ -1,4 +1,4 @@
-package com.SeleniumPractice.tests.POM;
+package com.SeleniumPractice.tests.POM.AppVWO;
 
 import com.SeleniumPractice.pages.pageObjectModel.appvwo.Normal_POM.DashboardPageVWO_POM;
 import com.SeleniumPractice.pages.pageObjectModel.appvwo.Normal_POM.LoginPageVWO_POM;

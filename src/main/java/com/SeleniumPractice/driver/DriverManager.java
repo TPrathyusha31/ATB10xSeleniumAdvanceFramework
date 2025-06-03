@@ -53,6 +53,9 @@ public class DriverManager {
 
     //when we want to close the browser
     public static void close(){
-             driver.quit();
+if(driver!=null) {
+    driver.quit();
+}
+driver = null;
     }
 }
