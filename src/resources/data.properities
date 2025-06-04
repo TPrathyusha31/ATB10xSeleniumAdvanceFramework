@@ -40,3 +40,7 @@ valid_katalonpwd = ThisIsNotAPassword
 
 katalon_error_text = Login failed! Please ensure the username and password are valid.
 LoginPage_url = https://katalon-demo-cura.herokuapp.com/profile.php#login
+
+bookingDate = 27/5/2025
+bookingComment = For medical emergency
+Appointment_booked_msg = Appointment Confirmation

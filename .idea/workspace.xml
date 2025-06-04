@@ -4,23 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c92cc38-c602-452d-b5bf-e19bde286eb4" name="Changes" comment="Web automation framework part 2 commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/SeleniumPractice/pages/pageObjectModel/katalonCura/AppointmentPage_POM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/SeleniumPractice/pages/pageObjectModel/katalonCura/MakeAppointmentPage_POM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/SeleniumPractice/pages/pageObjectModel/orangeHRM/EmployeeListHomePage_POM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/SeleniumPractice/tests/POM/AppVWO/TestVWOLogin_04_DriverManager_PropertyReader_n_CommonToAllPages_AfterBeforeTest_POM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/SeleniumPractice/tests/POM/KatalonCura/TestKatalon_01_POM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/SeleniumPractice/tests/POM/OrangeHRM/TestOrangeHRM_01_POM.java" afterDir="false" />
+    <list default="true" id="5c92cc38-c602-452d-b5bf-e19bde286eb4" name="Changes" comment="Web automation framework part 3 commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/SeleniumPractice/base/CommonToAllPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/SeleniumPractice/base/CommonToAllPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/SeleniumPractice/driver/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/SeleniumPractice/driver/DriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/SeleniumPractice/pages/pageObjectModel/katalonCura/AppointmentPage_POM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/SeleniumPractice/pages/pageObjectModel/katalonCura/AppointmentPage_POM.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/SeleniumPractice/pages/pageObjectModel/katalonCura/LoginpageKatalon_POM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/SeleniumPractice/pages/pageObjectModel/katalonCura/LoginpageKatalon_POM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/SeleniumPractice/pages/pageObjectModel/orangeHRM/LoginpageOrangeHRM_POM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/SeleniumPractice/pages/pageObjectModel/orangeHRM/LoginpageOrangeHRM_POM.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/resources/data.properities" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/data.properities" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/SeleniumPractice/base/CommonToAllTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/SeleniumPractice/base/CommonToAllTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/SeleniumPractice/tests/POM/TestVWOLogin_01_NormalScript_POM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/SeleniumPractice/tests/POM/AppVWO/TestVWOLogin_01_NormalScript_POM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/SeleniumPractice/tests/POM/TestVWOLogin_02_DriverManager_PropertyReader_POM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/SeleniumPractice/tests/POM/AppVWO/TestVWOLogin_02_DriverManager_PropertyReader_POM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/SeleniumPractice/tests/POM/TestVWOLogin_03_DriverManager_PropertyReader_n_CommonToAllPagees_POM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/SeleniumPractice/tests/POM/AppVWO/TestVWOLogin_03_DriverManager_PropertyReader_n_CommonToAllPagees_POM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/SeleniumPractice/tests/POM/KatalonCura/TestKatalon_01_POM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/SeleniumPractice/tests/POM/KatalonCura/TestKatalon_01_POM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/SeleniumPractice/tests/POM/OrangeHRM/TestOrangeHRM_01_POM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/SeleniumPractice/tests/POM/OrangeHRM/TestOrangeHRM_01_POM.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +58,9 @@
     "TestNG.C:/Users/Prathyusha/IdeaProjects/ATB10xSeleniumAdvanceFramework/testng_orangeHRM_POM.xml.executor": "Run",
     "TestNG.C:/Users/Prathyusha/IdeaProjects/ATB10xSeleniumAdvanceFramework/testng_vwo_pom.xml.executor": "Run",
     "TestNG.TestKatalon_01_POM.test_CurrentURLOfLoginPage.executor": "Run",
+    "TestNG.TestKatalon_01_POM.test_bookAppointment.executor": "Run",
+    "TestNG.TestKatalon_01_POM.test_negativeCase_invalidDetails.executor": "Run",
+    "TestNG.TestKatalon_01_POM.test_positiveCase_validDetails.executor": "Run",
     "TestNG.TestOrangeHRM_01_POM.executor": "Run",
     "TestNG.TestOrangeHRM_01_POM.test_negativeCase_invalidCreds.executor": "Run",
     "TestNG.TestOrangeHRM_01_POM.test_positiveCase_validCreds.executor": "Run",
@@ -86,17 +79,7 @@
       <recent name="com.SeleniumPractice.utils" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestKatalon_01_POM.test_CurrentURLOfLoginPage">
-    <configuration name="C:/Users/Prathyusha/IdeaProjects/ATB10xSeleniumAdvanceFramework/testng_orangeHRM_POM.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ATB10xSeleniumAdvanceFramework" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng_orangeHRM_POM.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.TestKatalon_01_POM.test_bookAppointment">
     <configuration name="TestKatalon_01_POM.test_CurrentURLOfLoginPage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATB10xSeleniumAdvanceFramework" />
       <extension name="coverage">
@@ -115,17 +98,54 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestOrangeHRM_01_POM" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestKatalon_01_POM.test_bookAppointment" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATB10xSeleniumAdvanceFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.SeleniumPractice.tests.POM.OrangeHRM.*" />
+          <option name="PATTERN" value="com.SeleniumPractice.tests.POM.KatalonCura.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.SeleniumPractice.tests.POM.OrangeHRM" />
-      <option name="MAIN_CLASS_NAME" value="com.SeleniumPractice.tests.POM.OrangeHRM.TestOrangeHRM_01_POM" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="com.SeleniumPractice.tests.POM.KatalonCura" />
+      <option name="MAIN_CLASS_NAME" value="com.SeleniumPractice.tests.POM.KatalonCura.TestKatalon_01_POM" />
+      <option name="METHOD_NAME" value="test_bookAppointment" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestKatalon_01_POM.test_negativeCase_invalidDetails" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATB10xSeleniumAdvanceFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.SeleniumPractice.tests.POM.KatalonCura.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.SeleniumPractice.tests.POM.KatalonCura" />
+      <option name="MAIN_CLASS_NAME" value="com.SeleniumPractice.tests.POM.KatalonCura.TestKatalon_01_POM" />
+      <option name="METHOD_NAME" value="test_negativeCase_invalidDetails" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestKatalon_01_POM.test_positiveCase_validDetails" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATB10xSeleniumAdvanceFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.SeleniumPractice.tests.POM.KatalonCura.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.SeleniumPractice.tests.POM.KatalonCura" />
+      <option name="MAIN_CLASS_NAME" value="com.SeleniumPractice.tests.POM.KatalonCura.TestKatalon_01_POM" />
+      <option name="METHOD_NAME" value="test_positiveCase_validDetails" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -150,31 +170,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestOrangeHRM_01_POM.test_positiveCase_validCreds" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ATB10xSeleniumAdvanceFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.SeleniumPractice.tests.POM.OrangeHRM.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.SeleniumPractice.tests.POM.OrangeHRM" />
-      <option name="MAIN_CLASS_NAME" value="com.SeleniumPractice.tests.POM.OrangeHRM.TestOrangeHRM_01_POM" />
-      <option name="METHOD_NAME" value="test_positiveCase_validCreds" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestKatalon_01_POM.test_bookAppointment" />
+        <item itemvalue="TestNG.TestKatalon_01_POM.test_positiveCase_validDetails" />
+        <item itemvalue="TestNG.TestKatalon_01_POM.test_negativeCase_invalidDetails" />
         <item itemvalue="TestNG.TestKatalon_01_POM.test_CurrentURLOfLoginPage" />
         <item itemvalue="TestNG.TestOrangeHRM_01_POM.test_negativeCase_invalidCreds" />
-        <item itemvalue="TestNG.TestOrangeHRM_01_POM" />
-        <item itemvalue="TestNG.TestOrangeHRM_01_POM.test_positiveCase_validCreds" />
-        <item itemvalue="TestNG.C:/Users/Prathyusha/IdeaProjects/ATB10xSeleniumAdvanceFramework/testng_orangeHRM_POM.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -219,14 +221,23 @@
       <option name="project" value="LOCAL" />
       <updated>1748858910599</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Web automation framework part 3 commit">
+      <option name="closed" value="true" />
+      <created>1748969343391</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1748969343391</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="web automation framework part1 commit" />
     <MESSAGE value="all files" />
     <MESSAGE value="Web automation framework part 2 commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Web automation framework part 2 commit" />
+    <MESSAGE value="Web automation framework part 3 commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Web automation framework part 3 commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -235,16 +246,6 @@
           <properties class="java.lang.NullPointerException" package="java.lang" />
           <option name="timeStamp" value="2" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/SeleniumPractice/driver/DriverManager.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/SeleniumPractice/driver/DriverManager.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

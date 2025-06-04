@@ -25,6 +25,7 @@ public class LoginpageKatalon_POM extends CommonToAllPage {
     public String LoginWithInvalidCreds(String usser, String passwrd) {
         enterInput(username_katalon, usser);
         enterInput(password_katalon, passwrd);
+        waitHelpers.waitJVM(5000);
         clickElement(Login_button);
         waitHelpers.checkVisibility(DriverManager.getDriver(), error_text, 5000);
         return getText(error_text);

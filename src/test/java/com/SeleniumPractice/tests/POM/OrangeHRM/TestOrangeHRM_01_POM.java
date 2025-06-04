@@ -5,6 +5,7 @@ import com.SeleniumPractice.driver.DriverManager;
 import com.SeleniumPractice.pages.pageObjectModel.orangeHRM.EmployeeListHomePage_POM;
 import com.SeleniumPractice.pages.pageObjectModel.orangeHRM.LoginpageOrangeHRM_POM;
 import com.SeleniumPractice.utils.ProperitiesReader;
+import io.qameta.allure.Description;
 import org.assertj.core.api.AssertionsForClassTypes;
 import org.testng.Assert;
 
@@ -14,6 +15,8 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 
 public class TestOrangeHRM_01_POM extends CommonToAllTests {
+
+    @Description("TC#1 - Verify that with invalid username and password, error message is shown")
 
     @Test
     public void test_negativeCase_invalidCreds(){
@@ -26,6 +29,7 @@ public class TestOrangeHRM_01_POM extends CommonToAllTests {
         Assert.assertEquals(error_msg,"Invalid credentials");
     }
 
+    @Description("TC#2 - Verify that with valid username and password,user is landed on employeekistpage page")
 
     @Test
     public void test_positiveCase_validCreds(){
