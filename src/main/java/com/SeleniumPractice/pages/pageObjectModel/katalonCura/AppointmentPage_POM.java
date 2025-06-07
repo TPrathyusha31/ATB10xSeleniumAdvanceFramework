@@ -2,6 +2,7 @@ package com.SeleniumPractice.pages.pageObjectModel.katalonCura;
 
 import com.SeleniumPractice.base.CommonToAllPage;
 import com.SeleniumPractice.driver.DriverManager;
+import com.SeleniumPractice.utils.waitHelpers;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.Select;
@@ -24,6 +25,7 @@ public class AppointmentPage_POM extends CommonToAllPage {
 
    // page actions
     public String AppointmentBasedOnHealthcareProgram(String date,String comment){
+
         Select select1 = new Select(driver.findElement(dropdown));
         select1.selectByIndex(0);
         clickElement(checkbox);

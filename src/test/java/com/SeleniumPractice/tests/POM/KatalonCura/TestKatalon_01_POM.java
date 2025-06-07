@@ -46,7 +46,7 @@ public class TestKatalon_01_POM extends CommonToAllTests {
         makeAppointmentPage.ClickOnAppointmentBtn();
 
         LoginpageKatalon_POM loginpageKatalon1 = new LoginpageKatalon_POM(DriverManager.getDriver());
-        loginpageKatalon1.LoginWithValidCreds(ProperitiesReader.readKey("valid_katalonuser"), ProperitiesReader.readKey("valid_katalonuser"));
+        loginpageKatalon1.LoginWithValidCreds(ProperitiesReader.readKey("valid_katalonuser"), ProperitiesReader.readKey("valid_katalonpwd"));
     }
 
 
@@ -57,11 +57,11 @@ public class TestKatalon_01_POM extends CommonToAllTests {
         makeAppointmentPage.ClickOnAppointmentBtn();
 
         LoginpageKatalon_POM loginpageKatalon1 = new LoginpageKatalon_POM(DriverManager.getDriver());
-        loginpageKatalon1.LoginWithValidCreds(ProperitiesReader.readKey("valid_katalonuser"), ProperitiesReader.readKey("valid_katalonuser"));
+        loginpageKatalon1.LoginWithValidCreds(ProperitiesReader.readKey("valid_katalonuser"), ProperitiesReader.readKey("valid_katalonpwd"));
 
         AppointmentPage_POM appointmentPage = new AppointmentPage_POM(DriverManager.getDriver());
 
-        String Booking_confirmationText = appointmentPage.AppointmentBasedOnHealthcareProgram(ProperitiesReader.readKey("bookingDate"), ProperitiesReader.readKey("For medical emergency"));
+        String Booking_confirmationText = appointmentPage.AppointmentBasedOnHealthcareProgram(ProperitiesReader.readKey("bookingDate"), ProperitiesReader.readKey("bookingComment"));
         Assert.assertEquals(Booking_confirmationText, ProperitiesReader.readKey("Appointment_booked_msg"));
     }
 

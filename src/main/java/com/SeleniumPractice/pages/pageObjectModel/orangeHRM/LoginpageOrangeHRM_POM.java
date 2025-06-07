@@ -14,15 +14,15 @@ public class LoginpageOrangeHRM_POM extends CommonToAllPage{
     }
 
     //Page locators
-    private By  username = By.xpath("//input[@name = 'username']");
-    private By  password = By.name("password");
+    private By  username = By.xpath("input[placeholder='Username']");
+    private By  password = By.xpath("//input[@name='password']");
     private By Login_btn = By.xpath("//button[text()=' Login ']");
     private By error_message =  By.xpath("//p[text()='Invalid credentials']");
 
     //Page Actions
     public String LoginUsingInvalidCreds(String user, String pwd){
         openOrangeHRMURL();
-        waitHelpers.waitJVM(3000);
+        waitHelpers.waitJVM(5000);
         enterInput(username,user);
         enterInput(password,pwd);
         clickElement(Login_btn);
