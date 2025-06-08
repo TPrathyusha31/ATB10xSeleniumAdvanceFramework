@@ -16,16 +16,16 @@ import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 public class TestVWOLogin_02_With_Log4jLogs_PF extends CommonToAllTests {
 
-   private static final Logger logger = LogManager.getLogger(TestVWOLogin_02_With_Log4jLogs_PF.class);
+ // private static final Logger logger = LogManager.getLogger(TestVWOLogin_02_With_Log4jLogs_PF.class);
 
     @Description("Verify that with invalid username and password, error message is shown")
     @Test
     public void test_negativecase_invalidCreds(){
 
-        logger.info("Starting the test case page factory");
+//        logger.info("Starting the test case page factory");
         LoginPageVWO_ImprovedPOM loginPage = new LoginPageVWO_ImprovedPOM(DriverManager.getDriver());
         String error_msg = loginPage.LoginToVWOInvalidCreds(ProperitiesReader.readKey("invalid_username"),ProperitiesReader.readKey("invalid_password"));
-        logger.info("Ending the test case page factory");
+  //      logger.info("Ending the test case page factory");
 
         //Assertions
         assertThat(error_msg).isNotBlank().isNotNull().isNotEmpty();

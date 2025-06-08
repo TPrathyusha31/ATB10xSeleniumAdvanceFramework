@@ -4,18 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c92cc38-c602-452d-b5bf-e19bde286eb4" name="Changes" comment="Web automation framework part 4 commit">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/SeleniumPractice/tests/PageFactory/AppVWO/TestVWOLogin_01_PF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/SeleniumPractice/tests/PageFactory/AppVWO/TestVWOLogin_02_With_Log4jLogs_PF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/SeleniumPractice/tests/PageFactory/KatalonCura/TestKatalon_PF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/SeleniumPractice/tests/PageFactory/OrangeHRM/TestOrangeHRM_PF.java" afterDir="false" />
+    <list default="true" id="5c92cc38-c602-452d-b5bf-e19bde286eb4" name="Changes" comment="page factory and Log4j changes in framework - part 5 commit">
+      <change afterPath="$PROJECT_DIR$/src/resources/TestData.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/SeleniumPractice/Listeners/RetryAnalyzer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/SeleniumPractice/Listeners/ScreenshotListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/SeleniumPractice/UtilsTest/UtilsExcel_ToReadData_ForDataDrivenTesting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/SeleniumPractice/tests/POM/AppVWO/TestVWOLogin_05_DataDrivenTesting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/SeleniumPractice/tests/POM/AppVWO/TestVWOLogin_06_RetryListeners.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/SeleniumPractice/tests/POM/AppVWO/TestVWOLogin_07_ScreenshotListeners.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/SeleniumPractice/pages/pageFactory/appvwo/LoginPageVWO_PF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/SeleniumPractice/pages/pageFactory/appvwo/LoginPageVWO_PF.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/SeleniumPractice/pages/pageObjectModel/katalonCura/AppointmentPage_POM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/SeleniumPractice/pages/pageObjectModel/katalonCura/AppointmentPage_POM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/SeleniumPractice/pages/pageObjectModel/katalonCura/LoginpageKatalon_POM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/SeleniumPractice/pages/pageObjectModel/katalonCura/LoginpageKatalon_POM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/SeleniumPractice/pages/pageObjectModel/orangeHRM/LoginpageOrangeHRM_POM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/SeleniumPractice/pages/pageObjectModel/orangeHRM/LoginpageOrangeHRM_POM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/SeleniumPractice/utils/waitHelpers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/SeleniumPractice/utils/waitHelpers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/SeleniumPractice/tests/POM/KatalonCura/TestKatalon_01_POM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/SeleniumPractice/tests/POM/KatalonCura/TestKatalon_01_POM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/SeleniumPractice/Listeners/RetryListeners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/SeleniumPractice/Listeners/RetryListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/SeleniumPractice/tests/PageFactory/AppVWO/TestVWOLogin_02_With_Log4jLogs_PF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/SeleniumPractice/tests/PageFactory/AppVWO/TestVWOLogin_02_With_Log4jLogs_PF.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,21 +31,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "TPrathyusha31"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;TPrathyusha31&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/TPrathyusha31/ATB10xSeleniumAdvanceFramework.git",
-    "accountId": "3393e7af-178d-4993-bfdf-d34fb3c44107"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/TPrathyusha31/ATB10xSeleniumAdvanceFramework.git&quot;,
+    &quot;accountId&quot;: &quot;3393e7af-178d-4993-bfdf-d34fb3c44107&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2xmIiEFejz4CLfDXv07ZGt8t5cT" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -60,7 +59,9 @@
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.C:/Users/Prathyusha/IdeaProjects/ATB10xSeleniumAdvanceFramework/testng.xml.executor": "Run",
+    "TestNG.C:/Users/Prathyusha/IdeaProjects/ATB10xSeleniumAdvanceFramework/testng_Retrylisteners.xml.executor": "Run",
     "TestNG.C:/Users/Prathyusha/IdeaProjects/ATB10xSeleniumAdvanceFramework/testng_orangeHRM_POM.xml.executor": "Run",
+    "TestNG.C:/Users/Prathyusha/IdeaProjects/ATB10xSeleniumAdvanceFramework/testng_screenshotListeners.xml.executor": "Run",
     "TestNG.C:/Users/Prathyusha/IdeaProjects/ATB10xSeleniumAdvanceFramework/testng_vwo_pom.xml.executor": "Run",
     "TestNG.TestKatalon_01_POM.test_CurrentURLOfLoginPage.executor": "Run",
     "TestNG.TestKatalon_01_POM.test_bookAppointment.executor": "Run",
@@ -72,94 +73,46 @@
     "TestNG.TestVWOLogin_01_NormalScript.executor": "Run",
     "TestNG.TestVWOLogin_01_NormalScript.testnegativecase_invalidCreds.executor": "Run",
     "TestNG.TestVWOLogin_02_DriverManager_PropertyReader_POM.executor": "Run",
+    "TestNG.TestVWOLogin_02_With_Log4jLogs_PF.executor": "Run",
     "TestNG.TestVWOLogin_02_With_Log4jLogs_PF.test_negativecase_invalidCreds.executor": "Run",
     "TestNG.TestVWOLogin_03_DriverManager_PropertyReader_n_CommonToAllPagees_POM.executor": "Run",
     "TestNG.TestVWOLogin_04_DriverManager_PropertyReader_n_CommonToAllPages_AfterBeforeTest_POM.executor": "Run",
+    "TestNG.TestVWOLogin_05_DataDrivenTesting.test_LoginVWO.executor": "Run",
+    "TestNG.TestVWOLogin_06_RetryListeners.executor": "Run",
+    "TestNG.TestVWOLogin_07_ScreenshotListeners.executor": "Run",
     "TestNG.TestVWOLogin_PF.test_negativecase_invalidCreds.executor": "Run",
+    "TestNG.TestVWOLogin_Retry.testFail.executor": "Run",
+    "TestNG.TestVWO_06_RetryListeners.executor": "Run",
+    "TestNG.TestVWO_06_RetryListeners.testFail.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Prathyusha/IdeaProjects/ATB10xSeleniumAdvanceFramework/src/resources",
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.excludes"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Prathyusha\IdeaProjects\ATB10xSeleniumAdvanceFramework\src\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Prathyusha\IdeaProjects\ATB10xSeleniumAdvanceFramework\src\resources" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.SeleniumPractice.utils" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestVWOLogin_02_With_Log4jLogs_PF.test_negativecase_invalidCreds">
-    <configuration name="TestKatalon_01_POM.test_bookAppointment" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.TestVWOLogin_06_RetryListeners">
+    <configuration name="C:/Users/Prathyusha/IdeaProjects/ATB10xSeleniumAdvanceFramework/testng_screenshotListeners.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATB10xSeleniumAdvanceFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.SeleniumPractice.tests.POM.KatalonCura.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.SeleniumPractice.tests.POM.KatalonCura" />
-      <option name="MAIN_CLASS_NAME" value="com.SeleniumPractice.tests.POM.KatalonCura.TestKatalon_01_POM" />
-      <option name="METHOD_NAME" value="test_bookAppointment" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng_screenshotListeners.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestKatalon_01_POM.test_negativeCase_invalidDetails" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ATB10xSeleniumAdvanceFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.SeleniumPractice.tests.POM.KatalonCura.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.SeleniumPractice.tests.POM.KatalonCura" />
-      <option name="MAIN_CLASS_NAME" value="com.SeleniumPractice.tests.POM.KatalonCura.TestKatalon_01_POM" />
-      <option name="METHOD_NAME" value="test_negativeCase_invalidDetails" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestKatalon_01_POM.test_positiveCase_validDetails" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ATB10xSeleniumAdvanceFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.SeleniumPractice.tests.POM.KatalonCura.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.SeleniumPractice.tests.POM.KatalonCura" />
-      <option name="MAIN_CLASS_NAME" value="com.SeleniumPractice.tests.POM.KatalonCura.TestKatalon_01_POM" />
-      <option name="METHOD_NAME" value="test_positiveCase_validDetails" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestVWOLogin_01_PF.test_negativecase_invalidCreds" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ATB10xSeleniumAdvanceFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.SeleniumPractice.tests.PageFactory.AppVWO.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.SeleniumPractice.tests.PageFactory.AppVWO" />
-      <option name="MAIN_CLASS_NAME" value="com.SeleniumPractice.tests.PageFactory.AppVWO.TestVWOLogin_01_PF" />
-      <option name="METHOD_NAME" value="test_negativecase_invalidCreds" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestVWOLogin_02_With_Log4jLogs_PF.test_negativecase_invalidCreds" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestVWOLogin_02_With_Log4jLogs_PF" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATB10xSeleniumAdvanceFramework" />
       <extension name="coverage">
         <pattern>
@@ -169,8 +122,59 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.SeleniumPractice.tests.PageFactory.AppVWO" />
       <option name="MAIN_CLASS_NAME" value="com.SeleniumPractice.tests.PageFactory.AppVWO.TestVWOLogin_02_With_Log4jLogs_PF" />
-      <option name="METHOD_NAME" value="test_negativecase_invalidCreds" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestVWOLogin_06_RetryListeners" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATB10xSeleniumAdvanceFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.SeleniumPractice.tests.POM.AppVWO.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.SeleniumPractice.tests.POM.AppVWO" />
+      <option name="MAIN_CLASS_NAME" value="com.SeleniumPractice.tests.POM.AppVWO.TestVWOLogin_06_RetryListeners" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestVWOLogin_06_RetryListeners.testFail" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATB10xSeleniumAdvanceFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.SeleniumPractice.tests.POM.AppVWO.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.SeleniumPractice.tests.POM.AppVWO" />
+      <option name="MAIN_CLASS_NAME" value="com.SeleniumPractice.tests.POM.AppVWO.TestVWOLogin_06_RetryListeners" />
+      <option name="METHOD_NAME" value="testFail" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestVWOLogin_07_ScreenshotListeners" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATB10xSeleniumAdvanceFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.SeleniumPractice.tests.POM.AppVWO.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.SeleniumPractice.tests.POM.AppVWO" />
+      <option name="MAIN_CLASS_NAME" value="com.SeleniumPractice.tests.POM.AppVWO.TestVWOLogin_07_ScreenshotListeners" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -179,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestVWOLogin_02_With_Log4jLogs_PF.test_negativecase_invalidCreds" />
-        <item itemvalue="TestNG.TestVWOLogin_01_PF.test_negativecase_invalidCreds" />
-        <item itemvalue="TestNG.TestKatalon_01_POM.test_bookAppointment" />
-        <item itemvalue="TestNG.TestKatalon_01_POM.test_positiveCase_validDetails" />
-        <item itemvalue="TestNG.TestKatalon_01_POM.test_negativeCase_invalidDetails" />
+        <item itemvalue="TestNG.TestVWOLogin_06_RetryListeners" />
+        <item itemvalue="TestNG.C:/Users/Prathyusha/IdeaProjects/ATB10xSeleniumAdvanceFramework/testng_screenshotListeners.xml" />
+        <item itemvalue="TestNG.TestVWOLogin_07_ScreenshotListeners" />
+        <item itemvalue="TestNG.TestVWOLogin_06_RetryListeners.testFail" />
+        <item itemvalue="TestNG.TestVWOLogin_02_With_Log4jLogs_PF" />
       </list>
     </recent_temporary>
   </component>
@@ -244,8 +248,27 @@
       <option name="project" value="LOCAL" />
       <updated>1749058509487</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="page factory and Log4j changes in framework - part 5 commit">
+      <option name="closed" value="true" />
+      <created>1749317242381</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1749317242381</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="web automation framework part1 commit" />
@@ -253,7 +276,8 @@
     <MESSAGE value="Web automation framework part 2 commit" />
     <MESSAGE value="Web automation framework part 3 commit" />
     <MESSAGE value="Web automation framework part 4 commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Web automation framework part 4 commit" />
+    <MESSAGE value="page factory and Log4j changes in framework - part 5 commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="page factory and Log4j changes in framework - part 5 commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
